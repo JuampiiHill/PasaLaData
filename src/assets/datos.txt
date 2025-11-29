@@ -1,0 +1,90 @@
+DÓNDE USAR CADA COLOR
+✅ Body
+
+Color de fondo:
+
+background-color: #F7F6F3;
+color: #0D1B2A;
+font-family: "Inter", "Roboto", sans-serif;
+
+
+Se ve moderno y limpio.
+
+✅ Navbar
+background-color: #0D1B2A;
+color: #F7F6F3;
+
+Hover de links:
+color: #F46036;
+
+Logo:
+
+➡️ Usar versión blanca o full color.
+
+✅ Botón principal (CTA)
+
+Ideal para “Crear invitación”, “Enviar link”, etc.
+
+background-color: #F46036;
+color: white;
+border-radius: 8px;
+
+
+Hover:
+
+background-color: #FF8C5A;
+
+✅ Botón secundario
+background-color: transparent;
+border: 2px solid #F46036;
+color: #F46036;
+
+
+Hover:
+
+background-color: #F46036;
+color: white;
+
+✅ Tarjetas / Cards
+background: white;
+border: 1px solid #E0E0E0;
+border-radius: 12px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+
+✅ Inputs
+
+Borde:
+
+border: 1px solid #7B818A;
+
+
+Focus:
+
+border: 1px solid #F46036;
+box-shadow: 0 0 4px #F46036;
+
+📌 Jerarquía de texto
+Títulos (h1, h2)
+color: #0D1B2A;
+font-weight: 700;
+
+Subtítulos
+color: #7B818A;
+font-weight: 500;
+
+Texto normal
+color: #0D1B2A;
+
+⭐ Vista rápida de la paleta
+
+#0D1B2A → Azul oscuro
+
+#F46036 → Naranja primario
+
+#FF8C5A → Naranja claro (hover)
+
+#FFD37A → Amarillo suave
+
+#F7F6F3 → Fondo
+
+#7B818A → Gris suave
