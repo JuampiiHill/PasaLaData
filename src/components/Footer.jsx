@@ -2,7 +2,7 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="footer-content">
-                <ul className="footer-list">
+                <ul className="footer-links">
                     <li><a href="">¿Quiénes somos?</a></li>
                     <li><a href="">Nuestras redes</a></li>
                     <li><a href="">Colaborá con nosotros</a></li>
