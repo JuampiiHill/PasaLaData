@@ -13,11 +13,17 @@ export const createUser = async (name, lastname, email, password) => {
 };
 
 export const findUserByEmail = async (email) => {
-    const result = await pool.query(
-        `SELECT * FROM users WHERE email = $1`,
-        [email]
-    );
+    const query = "SELECT * FROM users WHERE email = $1";
+    const values = [email];
 
-    console.log("Resultado finUser", result.rows[0])
-    return result.rows[0];
+    const { rows } = await pool.query(query, values);
+    return rows[0];
+};
+
+export const findUserById = async(id) => {
+    const { rows } = await pool.query(
+        "SELECT id, name, lastname, email, created_at FROM users WHERE id = $1",
+        [id]
+    );
+    return rows[0];
 };
